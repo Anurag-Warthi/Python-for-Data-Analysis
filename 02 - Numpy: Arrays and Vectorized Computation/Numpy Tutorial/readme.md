@@ -140,3 +140,18 @@ print(arr)
 
 <hr>
 
+<h2>Checking Numpy Version</h2>
+
+<p>The version string is stored under __version__ attribute.</p>
+
+<pre><code>
+import numpy as np
+print(np.__version__)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+2.4.6
+</code></pre>
+
+<hr>
