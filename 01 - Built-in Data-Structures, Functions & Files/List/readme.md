@@ -86,3 +86,41 @@ print(len(thislist))
 
 <h2>List Items - Data Types</h2>
 
+<pr>
+List items can be of any data type:
+</pr>
+
+<pre><code>
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+</code></pre>
+
+
+<pr>
+A list can contain different data types:
+<pr>
+
+<pre><code>
+list1 = ["abc", 34, True, 40, "male"]
+</code></pre>
+
+<hr>
+
+<h2>type()</h2>
+
+<pr>
+From Python's perspective, lists are defined as objects with the data type 'list':
+
+<class 'list'>
+</pr>
+
+<pre><code>
+mylist = ["apple", "banana", "cherry"]
+print(type(mylist))
+</code><pre>
+
+<p><strong>Output</strong><p>
+<pre><code>
+<class 'list'>
+</code></pre>
