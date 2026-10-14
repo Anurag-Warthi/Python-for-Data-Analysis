@@ -120,7 +120,7 @@ mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
 </code><pre>
 
-<p><strong>Output</strong><p>
+<p><strong>Output</strong></p>
 <pre><code>
 <class 'list'>
 </code></pre>
