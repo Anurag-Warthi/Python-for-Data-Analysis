@@ -144,3 +144,24 @@ print(thislist)
 </code></pre>
 
 <hr>
+
+
+<h1>Python - Access List Items</h1>
+
+<h2>Access Items</h2>
+
+<pr>
+List items are indexed and you can access them by referring to the index number:
+</pr>
+
+<pre><code>
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+banana
+</code></pre>
+
+<p><strong>Note: The first item has index 0.</strong></p>
