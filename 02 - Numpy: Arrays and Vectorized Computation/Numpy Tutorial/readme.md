@@ -22,3 +22,16 @@ lingua francas for data exchange.
     <li>Tools for reading/writing array data to disk and working with memory-mapped files</li>
     <li>Linear algebra, random number generation, and Fourier transform capabilities</li>
 </ul>
+
+
+<h2>Why use Numpy?</h2>
+
+<pr>
+In Python we have lists that serve the purpose of arrays, but they are slow to process.
+
+NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
+
+The array object in NumPy is called ndarray, it provides a lot of supporting functions that make working with ndarray very easy.
+
+Arrays are very frequently used in data science, where speed and resources are very important.
+</pr>
