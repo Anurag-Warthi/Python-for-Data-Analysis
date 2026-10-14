@@ -1,6 +1,6 @@
-<h1>Numpy Introduction</h1>
+<h1>NumPy Introduction</h1>
 
-<h2>What is Numpy?</h2>
+<h2>What is NumPy?</h2>
 
 <pr>
 NumPy is a Python library used for working with arrays.
@@ -14,7 +14,7 @@ lingua francas for data exchange.
 
 </pr>
 
-<p>Here are some of the things you will find in Numpy:</p>
+<p>Here are some of the things you will find in NumPy:</p>
 
 <ul>
     <li>ndarray, an efficient multidimensional array providing fast array-oriented arithmetic operations and flexible broadcasting capabilities.</li>
@@ -25,7 +25,7 @@ lingua francas for data exchange.
 
 <hr>
 
-<h2>Why use Numpy?</h2>
+<h2>Why use NumPy?</h2>
 
 <pr>
 In Python we have lists that serve the purpose of arrays, but they are slow to process.
@@ -56,6 +56,23 @@ This is the main reason why NumPy is faster than lists. Also it is optimized to 
 <pr>
 NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in C or C++.
 </pr>
+
+<hr>
+
+<h1>NumPy Getting Started</h1>
+
+<h2>Installation of NumPy</h2>
+
+<pr>
+If you have Python and PIP installed on a system, then installation of NumPy is very easy.
+</pr>
+
+
+<p>Install it using this command:<p>
+
+<pre><code>
+C:\Users\Your Name>pip install numpy
+</code></pre>
 
 <hr>
 
