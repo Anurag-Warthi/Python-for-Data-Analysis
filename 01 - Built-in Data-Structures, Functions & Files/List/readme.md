@@ -118,7 +118,7 @@ From Python's perspective, lists are defined as objects with the data type 'list
 <pre><code>
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
-</code><pre>
+</code></pre>
 
 <p><strong>Output</strong></p>
 <pre><code>
