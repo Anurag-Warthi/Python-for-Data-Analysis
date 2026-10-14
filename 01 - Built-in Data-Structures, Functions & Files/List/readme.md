@@ -122,7 +122,7 @@ print(type(mylist))
 
 <p><strong>Output</strong></p>
 <pre><code>
-<!-- <class 'list'>HI</class> -->
+< class 'list'>
 </code></pre>
 
 <hr>
