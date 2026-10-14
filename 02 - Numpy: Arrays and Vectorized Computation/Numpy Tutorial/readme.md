@@ -83,7 +83,7 @@ Once NumPy is installed, import it in your applications by adding the import key
 </pr>
 
 <pre><code>
-import numpy as np
+import numpy
 </code></pre>
 
 <p>Now NumPy is imported and ready to use.</p>
@@ -91,9 +91,9 @@ import numpy as np
 <p>Example:</p>
 
 <pre><code>
-import numpy as np
+import numpy
 
-arr = np.array([1, 2, 3, 4, 5])
+arr = numpy.array([1, 2, 3, 4, 5])
 
 print(arr)
 </code></pre>
@@ -112,3 +112,31 @@ NumPy is usually imported under the np alias.
 </pr>
 
 <p><strong>alias: In Python alias are an alternate name for referring to the same thing.</strong></p>
+
+<pr>
+Create an alias with the as keyword while importing:
+</pr>
+
+<pre><code>
+import numpy as np
+</code></pre>
+
+<p>Now the NumPy package can be referred to as np instead of numpy.</p>
+
+<p>Example:</p>
+
+<pre><code>
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[1  2  3  4  5]
+</code></pre>
+
+<hr>
+
