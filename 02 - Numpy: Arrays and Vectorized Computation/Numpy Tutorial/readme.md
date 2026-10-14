@@ -23,6 +23,7 @@ lingua francas for data exchange.
     <li>Linear algebra, random number generation, and Fourier transform capabilities</li>
 </ul>
 
+<hr>
 
 <h2>Why use Numpy?</h2>
 
@@ -35,3 +36,26 @@ The array object in NumPy is called ndarray, it provides a lot of supporting fun
 
 Arrays are very frequently used in data science, where speed and resources are very important.
 </pr>
+
+<hr>
+
+<h2>Why is NumPy Faster Than Lists?</h2>
+
+<pr>
+NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
+
+This behavior is called locality of reference in computer science.
+
+This is the main reason why NumPy is faster than lists. Also it is optimized to work with latest CPU architectures.
+</pr>
+
+<hr>
+
+<h2>Which Language is NumPy written in?</h2>
+
+<pr>
+NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in C or C++.
+</pr>
+
+<hr>
+
