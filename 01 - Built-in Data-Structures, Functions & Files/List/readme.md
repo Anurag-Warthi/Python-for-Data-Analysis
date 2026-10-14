@@ -124,3 +124,21 @@ print(type(mylist))
 <pre><code>
 <class 'list'>
 </code></pre>
+
+<hr>
+
+<h2>The list() Constructor</h2>
+
+<pr>
+It is also possible to use the list() constructor when creating a new list.
+</pr>
+
+<pre><code>
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+['apple', 'banana', 'cherry']
+</code></pre>
