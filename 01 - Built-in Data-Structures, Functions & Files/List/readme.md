@@ -127,7 +127,7 @@ print(type(mylist))
 
 <hr>
 
-<h2>The list() Constructor</h2>
+<h2>The List() Constructor</h2>
 
 <pr>
 It is also possible to use the list() constructor when creating a new list.
