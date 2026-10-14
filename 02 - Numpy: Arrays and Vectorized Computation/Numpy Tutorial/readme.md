@@ -221,3 +221,6 @@ print(arr)
 </code></pre>
 
 <p><strong>Output</strong></p>
+<pre><code>
+42
+</code></pre>
