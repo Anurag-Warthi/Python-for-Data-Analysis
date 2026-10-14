@@ -224,3 +224,53 @@ print(arr)
 <pre><code>
 42
 </code></pre>
+
+<hr>
+
+<h2>1-D Arrays</h2>
+
+<pr>
+An array that has 0-D arrays as its elements is called uni-dimensional or 1-D array.
+
+These are the most common and basic arrays.
+</pr>
+
+<p>Creating a 1-D array containing the values 1,2,3,4,5:</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+</code></pre>
+
+<hr>
+
+<h2>2-D Arrays</h2>
+
+<pr>
+An array that has 1-D arrays as its elements is called a 2-D array.
+
+These are often used to represent matrix or 2nd order tensors.
+</pr>
+
+<p>Create a 2-D array containing two arrays with values 1,2,3 and 4,5,6</p>
+
+<pre><code>
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[[1 2 3]
+ [4 5 6]]
+</code></pre>
+
+<hr>
+
+<h2>3-D Arrays</h2>
+
+<pr>
+An array that has 2-D arrays (matrices) as its elements is called 3-D array.
+
+These are often used to represent a 3rd order tensor.
+</pr>
