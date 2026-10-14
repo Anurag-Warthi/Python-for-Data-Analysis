@@ -37,3 +37,52 @@ When we say that lists are ordered, it means that the items have a defined order
 
 If you add new items to a list, the new items will be placed at the end of the list.
 </pr>
+
+<hr>
+
+<h2>Changeable</h2>
+
+<pr>
+The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.
+</pr>
+
+<hr>
+
+<h2>Allow Duplicates</h2>
+
+<pr>
+Since lists are indexed, lists can have items with the same value.
+</pr>
+
+<pre><code>
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
+</code></pre>
+
+<p><strong>Output</strong><p>
+<pre><code>
+["apple", "banana", "cherry", "apple", "cherry"]
+</code></pre>
+
+<hr>
+
+<h2>List Length</h2>
+
+<pr>
+To determine how many items a list has, use the len() function:
+</pr>
+
+<pre><code>
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+</code></pre>
+
+<p><strong>Output</strong><p>
+<pre><code>
+3
+</code></pre>
+
+<hr>
+
+<h2>List Items - Data Types</h2>
+
