@@ -142,3 +142,5 @@ print(thislist)
 <pre><code>
 ['apple', 'banana', 'cherry']
 </code></pre>
+
+<hr>
