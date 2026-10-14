@@ -155,3 +155,20 @@ print(np.__version__)
 </code></pre>
 
 <hr>
+
+<h1>NumPy Creating Arrays</h1>
+
+<h2>Create a NumPy ndarray Object</h2>
+
+<pr>
+NumPy is used to work with arrays. The array object in NumPy is called ndarray.
+
+We can create a NumPy ndarray object by using the array() function.
+</pr>
+
+<pre><code>
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))
+</code></pre>
