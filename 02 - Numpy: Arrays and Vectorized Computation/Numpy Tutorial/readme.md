@@ -172,3 +172,52 @@ arr = np.array([1, 2, 3, 4, 5])
 print(arr)
 print(type(arr))
 </code></pre>
+
+<p><strong>Output</strong><p>
+<pre><code>
+[1 2 3 4 5]
+< class 'numpy.ndarray'>
+</code></pre>
+
+
+<pr>
+To create an ndarray, we can pass a list, tuple or any array-like object into the array() method, and it will be converted into an ndarray:
+</pr>
+
+<p>Using a tuple to create a numpy array:</p>
+
+<pre><code>
+import numpy as np
+
+arr = np.array((1, 2, 3, 4, 5))
+
+print(arr)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[1  2  3  4  5]
+</code></pre>
+
+<hr>
+
+<h2>Dimensions in Arrays</h2>
+
+<p>A dimension in arrays is one level of array depth (nested arrays).</p>
+
+<p><strong>nested array: are arrays that have arrays as their elements.</strong></p>
+
+<hr>
+
+<h2>0-D Array</h2>
+
+<pr>
+0-D arrays, or Scalars, are the elements in an array. Each value in an array is a 0-D array.
+</pr>
+
+<pre><code>
+arr = np.array(42)
+print(arr)
+</code></pre>
+
+<p><strong>Output</strong></p>
