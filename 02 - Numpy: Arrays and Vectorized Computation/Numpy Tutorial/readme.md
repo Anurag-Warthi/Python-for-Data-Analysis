@@ -343,7 +343,7 @@ print('number of dimensions :', arr.ndim)
 number of dimensions : 5
 </code></pre>
 
-<p>###################################################################################</p>
+<hr>
 
 <h1>NumPy Array Indexing</h1>
 
@@ -373,4 +373,64 @@ print(arr[3])
 3
 4
 </code></pre>
+
+
+<p><strong>Example:</strong></p>
+
+<p>Get third and fourth elements from the following array and add them.</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4])
+
+print(arr[2] + arr[3])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+7
+</code></pre>
+
+<hr>
+
+<h2>Access 2-D Arrays</h2>
+
+<pr>
+To access elements from 2-D arrays we can use comma separated integers representing the dimension and the index of the element.
+
+Think of 2-D arrays like a table with rows and columns, where the dimension represents the row and the index represents the column.
+</pr>
+
+<p><strong>Example</strong></p>
+
+<p>Access the element on the first row, second column:</p>
+
+<pre><code>
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+
+print('2nd element on 1st row: ', arr[0, 1])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+2
+</code></pre>
+
+<hr>
+
+<p><strong>Example 2</strong></p>
+
+<p>Access the element on the 2nd row, 5th column:</p>
+
+<pre><code>
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+
+print('5th element on 2nd row: ', arr[1, 4])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+10
+</code></pre>
+
+<hr>
 
