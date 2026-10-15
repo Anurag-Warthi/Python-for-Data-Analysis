@@ -434,3 +434,9 @@ print('5th element on 2nd row: ', arr[1, 4])
 
 <hr>
 
+<h2>Access 3-D Arrays</h2>
+
+<pr>
+To access elements from 3-D arrays we can use comma separated integers representing the dimensions and the index of the element.
+</pr>
+
