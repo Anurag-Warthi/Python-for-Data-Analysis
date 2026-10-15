@@ -343,7 +343,7 @@ print('number of dimensions :', arr.ndim)
 number of dimensions : 5
 </code></pre>
 
-<hr>
+<p>###################################################################################</p>
 
 <h1>NumPy Array Indexing</h1>
 
@@ -373,3 +373,4 @@ print(arr[3])
 3
 4
 </code></pre>
+
