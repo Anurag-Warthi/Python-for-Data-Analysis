@@ -274,3 +274,48 @@ An array that has 2-D arrays (matrices) as its elements is called 3-D array.
 
 These are often used to represent a 3rd order tensor.
 </pr>
+
+<p>Create a 3-D array with two 2-D arrays, both containing two arrays with the values 1,2,3 and 4,5,6:</p>
+
+<pre><code>
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(arr)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[[[1 2 3]
+  [4 5 6]]
+
+ [[1 2 3]
+  [4 5 6]]]
+</code></pre>
+
+<hr>
+
+<h2>Check Number of Dimensions?</h2>
+
+<pr>
+NumPy Arrays provides the ndim attribute that returns an integer that tells us how many dimensions the array have.
+</pr>
+
+<pre><code>
+a = np.array(42)
+b = np.array([1, 2, 3, 4, 5])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+0
+1
+2
+3
+</code></pre>
