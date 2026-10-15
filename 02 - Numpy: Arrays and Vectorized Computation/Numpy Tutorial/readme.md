@@ -319,3 +319,29 @@ print(d.ndim)
 2
 3
 </code></pre>
+
+<hr>
+
+<h2>Higher Dimension Arrays</h2>
+
+<pr>
+An array can have any number of dimensions.
+
+When the array is created, you can define the number of dimensions by using the ndmin argument.
+</pr>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4], ndmin=5)
+
+print(arr)
+print('number of dimensions :', arr.ndim)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[[[[[1 2 3 4]]]]]
+number of dimensions : 5
+</code></pre>
+
+<hr>
+
