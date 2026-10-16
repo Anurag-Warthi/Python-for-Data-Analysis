@@ -440,3 +440,12 @@ print('5th element on 2nd row: ', arr[1, 4])
 To access elements from 3-D arrays we can use comma separated integers representing the dimensions and the index of the element.
 </pr>
 
+<p><strong>Example</strong></p>
+
+<p>Access the third element of the second array of the first array:</p>
+
+<pre><code>
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+
+print(arr[0, 1, 2])
+</code></pre>
