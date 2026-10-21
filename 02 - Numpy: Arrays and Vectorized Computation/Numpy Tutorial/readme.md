@@ -531,3 +531,23 @@ If we don't pass end its considered length of array in that dimension
 
 If we don't pass step its considered 1.
 </pre>
+
+<hr>
+
+<p><strong>Example</strong></p>
+
+<p>Slice elements from index 1 to 5 from the following array:</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[1:5])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[2  3  4  5]
+</code></pre>
+
+<hr>
+
