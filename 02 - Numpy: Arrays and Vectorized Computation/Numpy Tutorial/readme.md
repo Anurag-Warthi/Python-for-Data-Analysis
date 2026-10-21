@@ -605,3 +605,25 @@ print(arr[-3:-1])
 [5  6]
 </code></pre>
 
+<hr>
+
+<h2>Step</h2>
+
+<p>Use the step value to determine the step of the slicing:</p>
+
+<p><strong>Example</strong></p>
+
+<p>Return every other element from index 1 to index 5:</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[1:5:2])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[2  4]
+</code></pre>
+
+<hr>
