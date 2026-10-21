@@ -549,5 +549,59 @@ print(arr[1:5])
 [2  3  4  5]
 </code></pre>
 
+<p><strong>Note: The result includes the start index, but excludes the end index.</strong></p>
+
 <hr>
+
+<p><strong>Example 2</strong></p>
+
+<p>Slice elements from index 4 to the end of the array:</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[4:])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[5  6  7]
+</code></pre>
+
+<hr>
+
+<p><strong>Example 3</strong></p>
+
+<p>Slice elements from the beginning to index 4 (not included):</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[:4])
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>
+[1  2  3  4]
+</code></pre>
+
+<hr>
+
+<h2>Negative Slicing</h2>
+
+<p>Use the minus operator to refer to an index from the end:</p>
+
+<p><strong>Example</strong><p>
+
+<p>Slice from the index 3 from the end to index 1 from the end:</p>
+
+<pre><code>
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[-3:-1])
+</code></pre>
+
+<pre><code>
+[5  6]
+</code></pre>
 
